@@ -142,6 +142,15 @@ export const education = [
     degree: "A-Levels: 3A 1B · O-Levels: 3A* 4A 2B",
     period: "2021 — 2025",
     highlights: ["100% Merit Scholarship throughout A-Levels", "Math, Physics, Chemistry, IT"],
+    clubs: [
+      "Mathematics Society",
+      "Paraknight X",
+      "Parakration X",
+      "GrammarFest",
+      "LifeSci Lore",
+      "Qafla NGO",
+      "Roshan Horizon Initiative",
+    ],
   },
 ]
 
