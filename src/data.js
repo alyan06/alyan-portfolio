@@ -1,0 +1,213 @@
+export const profile = {
+  name: "Muhammad Alyan",
+  tagline: "Builder. Creator. Engineer.",
+  roles: ["CS + AI @ ASU", "Content Creator", "Event Director", "Entrepreneur", "4.0 GPA Student"],
+  location: "Lahore, PK → Tempe, AZ",
+  email: "muhammadalyan06@gmail.com",
+  instagram: "https://instagram.com/AlyanKiReelLife",
+  instagramPersonal: "https://instagram.com/_muhammadalyan",
+  github: "https://github.com/alyan06",
+  linkedin: "https://www.linkedin.com/in/muhammadalyan",
+  languages: ["English", "Urdu", "Punjabi", "Hindi"],
+}
+
+export const stats = [
+  { value: 4.0, decimals: 2, suffix: "", label: "Cumulative GPA" },
+  { value: 19, decimals: 0, suffix: "K+", label: "Instagram Followers" },
+  { value: 5, decimals: 0, suffix: "M", label: "Views / Month" },
+  { value: 1500, decimals: 0, suffix: "+", label: "Event Attendees Led" },
+]
+
+export const projects = [
+  {
+    title: "FitFamily",
+    desc: "Family health app integrating the Gemini API — shared fitness tracking for the whole household. Deployed publicly on GitHub.",
+    stack: ["React", "Vite", "Gemini API"],
+    accent: "volt",
+    link: "https://github.com/alyan06/fit-family",
+    size: "lg",
+  },
+  {
+    title: "Your Life RPG",
+    desc: "Gamified life-tracking app with a custom SVG block-art avatar system. Level up your real life like a video game.",
+    stack: ["React", "Supabase", "Vercel", "SVG"],
+    accent: "pulse",
+    link: "#",
+    size: "lg",
+  },
+  {
+    title: "Vaulted",
+    desc: "Personal web application in active development — built on a modern state-driven stack.",
+    stack: ["React", "Vite", "Tailwind", "Zustand", "Supabase"],
+    accent: "cyanic",
+    link: "#",
+    size: "md",
+  },
+  {
+    title: "Fresho Fast Food",
+    desc: "Concept restaurant website for a Lahore-based brand with bold black/orange identity and WhatsApp-based ordering.",
+    stack: ["Web Design", "Branding", "WhatsApp API"],
+    accent: "flare",
+    link: "#",
+    size: "md",
+  },
+  {
+    title: "Learning Parking Lot",
+    desc: "A central garage for every course and tutorial worth keeping — never lose a learning resource again.",
+    stack: ["Next.js", "Turso"],
+    accent: "volt",
+    link: "#",
+    size: "md",
+  },
+  {
+    title: "Autonomous Navigation Vehicle",
+    desc: "Fully autonomous LEGO-based vehicle navigating complex environments using ultrasonic, light and touch sensors. Built for FSE100 at ASU.",
+    stack: ["MATLAB", "Robotics", "Sensors"],
+    accent: "cyanic",
+    link: "#",
+    size: "md",
+  },
+]
+
+export const experience = [
+  {
+    role: "Fulton Ambassador",
+    org: "Ira A. Fulton Schools of Engineering, ASU",
+    period: "Jan 2026 — Present",
+    points: [
+      "Represents Fulton Schools at campus events, tours and community outreach",
+      "Communicates academic and research opportunities to prospective students",
+    ],
+    tag: "Leadership",
+  },
+  {
+    role: "Outreach Director",
+    org: "Pakistani Student Association, ASU",
+    period: "Mar 2026 — Present",
+    points: [
+      "Leads outreach connecting South Asian and international students with campus resources",
+      "Develops and executes digital communication strategies",
+    ],
+    tag: "Leadership",
+  },
+  {
+    role: "PR Officer",
+    org: "Coalition of International Students, ASU",
+    period: "Nov 2025 — Present",
+    points: [
+      "Manages PR and social media for ASU's international student coalition",
+      "Drafts announcements and coordinates cross-cultural programming",
+    ],
+    tag: "Communications",
+  },
+  {
+    role: "Technology Intern",
+    org: "PMCL-Jazz, Lahore",
+    period: "Jun — Jul 2024",
+    points: [
+      "Hands-on experience with network technologies in the Technology Department",
+      "Researched AI & Machine Learning; assisted in app development and maintenance",
+    ],
+    tag: "Tech",
+  },
+  {
+    role: "Owner / Assistant Manager",
+    org: "Nishat Clothing Franchise, Lahore",
+    period: "Jun — Aug 2023",
+    points: [
+      "Owns and operates the franchise — drove a 15% increase in monthly sales",
+      "Led inventory management, customer service and sales strategy",
+    ],
+    tag: "Business",
+  },
+]
+
+export const education = [
+  {
+    school: "Arizona State University",
+    sub: "Ira A. Fulton Schools of Engineering — Tempe, AZ",
+    degree: "B.S. Computer Science (AI) · Minor in Data Science",
+    period: "2025 — 2029",
+    highlights: ["4.00 Cumulative GPA", "Dean's List — Fall 2025 & Spring 2026", "CSE 205, MAT 266, MCO 120"],
+  },
+  {
+    school: "Lahore Grammar School Paragon",
+    sub: "Lahore, Pakistan",
+    degree: "A-Levels: 3A 1B · O-Levels: 3A* 4A 2B",
+    period: "2021 — 2025",
+    highlights: ["100% Merit Scholarship throughout A-Levels", "Math, Physics, Chemistry, IT"],
+  },
+]
+
+export const leadership = [
+  {
+    title: "Logistics Director — Paraknight X",
+    desc: "3-day national sports event, 1,500+ attendees. Led a team of 21 and personally covered 50+ km across campus.",
+  },
+  {
+    title: "President — Mathematics Society",
+    desc: "Prepared 50+ students for national & international Olympiads and tournaments at LGS Paragon.",
+  },
+  {
+    title: "Operations Director — Parakration X",
+    desc: "3-day STEM event with 200+ participants; managed security for a high-profile performance while also heading the Math category.",
+  },
+  {
+    title: "Co-Director — Qafla NGO",
+    desc: "Recruited 15+ ambassadors from 17 schools across 3 countries. Led 4 community service projects, recognized by an orphanage.",
+  },
+  {
+    title: "Co-Director of Logistics — GrammarFest",
+    desc: "Led a team of 28 to run a full arts event with 150+ attendees.",
+  },
+  {
+    title: "Director of Volunteer Management — RHI",
+    desc: "Managed all volunteers for the Roshan Horizon Initiative student NGO.",
+  },
+  {
+    title: "Sole Peer Tutor — A-Levels IT",
+    desc: "Only peer tutor for A-Levels IT; personalized academic support to 40 students.",
+  },
+  {
+    title: "Special Needs Educator — ILM College",
+    desc: "Designed and taught a customized Physics & Math curriculum with adaptive methods.",
+  },
+  {
+    title: "Lead Graphic Designer — Paraknight X / Nishat",
+    desc: "Branding and visual identity work driving a 25% increase in CTR and 30% rise in impressions.",
+  },
+]
+
+export const hobbies = [
+  {
+    name: "Traveling",
+    desc: "Lahore to Tempe and everywhere between — collecting places, not things.",
+    icon: "plane",
+  },
+  {
+    name: "Gym",
+    desc: "Structured training and nutrition. Discipline is the whole personality.",
+    icon: "dumbbell",
+  },
+  {
+    name: "Cricket",
+    desc: "Pakistani by birth, cricket fanatic by blood. Always down for a net session.",
+    icon: "trophy",
+  },
+  {
+    name: "Photography",
+    desc: "Framing the world one shot at a time — the camera roll is the real diary.",
+    icon: "camera",
+  },
+  {
+    name: "Content Creation",
+    desc: "0 → 19K followers and 5M monthly views documenting the international student life.",
+    icon: "clapperboard",
+  },
+]
+
+export const marqueeItems = [
+  "CS + AI @ ASU", "4.0 GPA", "19K+ Followers", "5M Monthly Views", "Event Director",
+  "Franchise Owner", "Math Olympiad Coach", "Dean's List ×2", "Lahore → Tempe",
+  "100% Merit Scholar", "Fulton Ambassador", "Content Creator",
+]
