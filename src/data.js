@@ -7,7 +7,7 @@ export const profile = {
   instagram: "https://instagram.com/AlyanKiReelLife",
   instagramPersonal: "https://instagram.com/_muhammadalyan",
   github: "https://github.com/alyan06",
-  linkedin: "https://www.linkedin.com/in/muhammadalyan",
+  linkedin: "https://www.linkedin.com/in/muhammad-alyan-a7838232b/",
   languages: ["English", "Urdu", "Punjabi", "Hindi"],
 }
 
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: "Vaulted",
-    desc: "Personal web application in active development — built on a modern state-driven stack.",
+    desc: "A personal life archive — log and revisit the movies, places and milestones that make up your story, all in one place.",
     stack: ["React", "Vite", "Tailwind", "Zustand", "Supabase"],
     accent: "cyanic",
     link: "#",

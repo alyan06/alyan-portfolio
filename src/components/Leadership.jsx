@@ -10,7 +10,7 @@ export default function Leadership() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {leadership.map((l, i) => (
           <Reveal key={l.title} delay={(i % 3) * 0.07}>
-            <SpotlightCard glow="255, 77, 0" className="h-full p-6">
+            <SpotlightCard glow="129, 140, 248" className="h-full p-6">
               <Crown className="mb-4 h-5 w-5 text-flare" aria-hidden="true" />
               <h3 className="font-display text-base font-bold leading-snug text-mist">{l.title}</h3>
               <p className="mt-2.5 text-sm leading-relaxed text-soft">{l.desc}</p>

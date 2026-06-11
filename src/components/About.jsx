@@ -36,7 +36,7 @@ export default function About() {
 
         {/* GPA card */}
         <Reveal delay={0.05} className="md:col-span-2">
-          <SpotlightCard glow="124, 58, 237" className="h-full p-7">
+          <SpotlightCard glow="99, 102, 241" className="h-full p-7">
             <GraduationCap className="mb-4 h-7 w-7 text-pulse" aria-hidden="true" />
             <p className="font-display text-5xl font-black text-mist">4.00</p>
             <p className="mt-2 text-sm text-soft">Cumulative GPA at ASU — Dean's List Fall '25 <span className="text-mist">and</span> Spring '26.</p>
@@ -45,7 +45,7 @@ export default function About() {
 
         {/* Scholarship card */}
         <Reveal delay={0.1} className="md:col-span-2">
-          <SpotlightCard glow="34, 211, 238" className="h-full p-7">
+          <SpotlightCard glow="56, 189, 248" className="h-full p-7">
             <Award className="mb-4 h-7 w-7 text-cyanic" aria-hidden="true" />
             <p className="font-display text-5xl font-black text-mist">100%</p>
             <p className="mt-2 text-sm text-soft">Merit scholarship — earned and maintained throughout A-Levels at LGS Paragon.</p>
@@ -54,7 +54,7 @@ export default function About() {
 
         {/* Sales card */}
         <Reveal delay={0.15} className="md:col-span-2">
-          <SpotlightCard glow="255, 77, 0" className="h-full p-7">
+          <SpotlightCard glow="129, 140, 248" className="h-full p-7">
             <TrendingUp className="mb-4 h-7 w-7 text-flare" aria-hidden="true" />
             <p className="font-display text-5xl font-black text-mist">+15%</p>
             <p className="mt-2 text-sm text-soft">Monthly sales growth achieved at the Nishat clothing franchise in Lahore.</p>

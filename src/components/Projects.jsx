@@ -4,10 +4,10 @@ import { SectionHeading, SpotlightCard, Reveal } from "./ui"
 import { projects } from "../data"
 
 const glows = {
-  volt: "204, 255, 0",
-  flare: "255, 77, 0",
-  pulse: "124, 58, 237",
-  cyanic: "34, 211, 238",
+  volt: "59, 130, 246",
+  flare: "129, 140, 248",
+  pulse: "99, 102, 241",
+  cyanic: "56, 189, 248",
 }
 const accents = {
   volt: "text-volt",

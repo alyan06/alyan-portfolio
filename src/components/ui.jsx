@@ -43,7 +43,7 @@ export function SectionHeading({ index, title, accent = "text-volt" }) {
 }
 
 /* ---------- Spotlight card (cursor-tracking radial glow) ---------- */
-export function SpotlightCard({ children, className = "", glow = "204, 255, 0" }) {
+export function SpotlightCard({ children, className = "", glow = "59, 130, 246" }) {
   const ref = useRef(null)
   const mx = useMotionValue(-400)
   const my = useMotionValue(-400)

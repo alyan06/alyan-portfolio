@@ -51,7 +51,7 @@ export default function Nav() {
 
           <a
             href="#contact"
-            className="hidden cursor-pointer rounded-full bg-volt px-5 py-2 font-display text-sm font-bold uppercase tracking-wide text-black transition-colors duration-200 hover:bg-lime-300 md:block"
+            className="hidden cursor-pointer rounded-full bg-volt px-5 py-2 font-display text-sm font-bold uppercase tracking-wide text-white transition-colors duration-200 hover:bg-blue-400 md:block"
           >
             Let's Talk
           </a>

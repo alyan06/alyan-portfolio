@@ -11,10 +11,11 @@
   --color-soft: #a1a1aa;
   --color-mist: #e4e4e7;
 
-  --color-volt: #ccff00;
-  --color-flare: #ff4d00;
-  --color-pulse: #7c3aed;
-  --color-cyanic: #22d3ee;
+  /* Accent palette — restrained blue/indigo family */
+  --color-volt: #3b82f6;
+  --color-flare: #818cf8;
+  --color-pulse: #6366f1;
+  --color-cyanic: #38bdf8;
 
   --animate-marquee: marquee 30s linear infinite;
   --animate-marquee-reverse: marquee-reverse 26s linear infinite;
@@ -43,7 +44,7 @@ body {
 
 ::selection {
   background: var(--color-volt);
-  color: #000;
+  color: #fff;
 }
 
 /* Grain overlay for texture */
@@ -63,7 +64,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(110deg, #ccff00 10%, #22d3ee 45%, #7c3aed 75%, #ff4d00 100%);
+  background: linear-gradient(110deg, #60a5fa 10%, #38bdf8 45%, #818cf8 80%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;

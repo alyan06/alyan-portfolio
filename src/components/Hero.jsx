@@ -101,7 +101,7 @@ export default function Hero() {
           transition={{ delay: 1.3, duration: 0.6 }}
           className="mt-10 flex flex-wrap items-center gap-4"
         >
-          <MagneticButton href="#projects" className="bg-volt px-8 py-4 text-sm text-black hover:bg-lime-300">
+          <MagneticButton href="#projects" className="bg-volt px-8 py-4 text-sm text-white hover:bg-blue-400">
             View Projects <ArrowDown className="h-4 w-4" />
           </MagneticButton>
           <MagneticButton href={profile.instagram} target="_blank" rel="noopener noreferrer" className="border border-line px-8 py-4 text-sm text-mist hover:border-zinc-500 hover:bg-panel">

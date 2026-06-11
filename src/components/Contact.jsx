@@ -30,7 +30,7 @@ export default function Contact() {
         <Reveal delay={0.2} className="mt-12">
           <MagneticButton
             href={`mailto:${profile.email}`}
-            className="bg-volt px-10 py-5 text-base text-black hover:bg-lime-300"
+            className="bg-volt px-10 py-5 text-base text-white hover:bg-blue-400"
           >
             <Mail className="h-5 w-5" /> {profile.email}
           </MagneticButton>

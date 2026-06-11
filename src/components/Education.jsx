@@ -10,7 +10,7 @@ export default function Education() {
       <div className="grid gap-4 md:grid-cols-2">
         {education.map((ed, i) => (
           <Reveal key={ed.school} delay={i * 0.1}>
-            <SpotlightCard glow={i === 0 ? "204, 255, 0" : "34, 211, 238"} className="h-full p-8 md:p-10">
+            <SpotlightCard glow={i === 0 ? "59, 130, 246" : "56, 189, 248"} className="h-full p-8 md:p-10">
               <GraduationCap className={`mb-5 h-8 w-8 ${i === 0 ? "text-volt" : "text-cyanic"}`} aria-hidden="true" />
               <h3 className="font-display text-2xl font-extrabold uppercase tracking-tight text-mist">
                 {ed.school}
