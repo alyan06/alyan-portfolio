@@ -1,10 +1,31 @@
 import { motion } from "framer-motion"
 import { Play, Eye, Users, Zap } from "lucide-react"
-import { SectionHeading, Reveal, Counter, MagneticButton, ImagePlaceholder } from "./ui"
+import { SectionHeading, Reveal, Counter, MagneticButton } from "./ui"
 import { InstagramIcon } from "./brands"
 import { profile } from "../data"
 
-const reels = ["Reel — Dorm Tour", "Reel — Desi Food in AZ", "Reel — Finals Week", "Reel — Lahore vs Tempe"]
+const reels = [
+  {
+    label: "Visa Process",
+    thumb: "/images/reel-visa-process.jpeg",
+    url: "https://www.instagram.com/reel/DQrgvUfjUS5/?igsh=Njc5bm9veHB0aXZl",
+  },
+  {
+    label: "Eid",
+    thumb: "/images/reel-eid.jpeg",
+    url: "https://www.instagram.com/reel/DWO2e-VhCSV/?igsh=MW52YWswYjJibmNwMA==",
+  },
+  {
+    label: "Finals Week",
+    thumb: "/images/reel-finals-week.jpeg",
+    url: "https://www.instagram.com/reel/DSSgi__kS-e/?igsh=cjQxbjIwaHFvdm8z",
+  },
+  {
+    label: "100 Days in the USA",
+    thumb: "/images/reel-100-days.jpeg",
+    url: "https://www.instagram.com/reel/DRudb-HEfM0/?igsh=OWwzcWtzeXdjaHhn",
+  },
+]
 
 export default function Creator() {
   return (
@@ -57,20 +78,29 @@ export default function Creator() {
             </Reveal>
           </div>
 
-          {/* Phone-style reel placeholders */}
+          {/* Phone-style reel cards */}
           <div className="grid grid-cols-2 gap-4">
             {reels.map((r, i) => (
-              <Reveal key={r} delay={i * 0.07}>
-                <motion.div
+              <Reveal key={r.label} delay={i * 0.07}>
+                <motion.a
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Watch reel: ${r.label} on Instagram`}
                   whileHover={{ y: -6 }}
                   transition={{ duration: 0.25 }}
-                  className={`relative cursor-pointer overflow-hidden rounded-3xl ${i % 2 === 1 ? "mt-8" : ""}`}
+                  className={`relative block cursor-pointer overflow-hidden rounded-3xl border border-line ${i % 2 === 1 ? "mt-8" : ""}`}
                 >
-                  <ImagePlaceholder label={r} className="aspect-9/16 rounded-3xl" />
+                  <img
+                    src={r.thumb}
+                    alt={`Reel: ${r.label}`}
+                    loading="lazy"
+                    className="aspect-9/16 w-full object-cover"
+                  />
                   <span className="absolute bottom-3 left-3 flex items-center gap-1.5 rounded-full bg-black/70 px-3 py-1.5 font-mono text-xs text-mist backdrop-blur-sm">
-                    <Play className="h-3 w-3 text-volt" aria-hidden="true" /> reel
+                    <Play className="h-3 w-3 text-volt" aria-hidden="true" /> {r.label}
                   </span>
-                </motion.div>
+                </motion.a>
               </Reveal>
             ))}
           </div>

@@ -66,7 +66,6 @@ export const projects = [
     accent: "cyanic",
     link: "#",
     size: "md",
-    image: "/images/fse100-vehicle.jpeg",
   },
 ]
 
