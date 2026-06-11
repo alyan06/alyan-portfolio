@@ -17,7 +17,7 @@ export default function Contact() {
 
       <div className="relative mx-auto max-w-6xl text-center">
         <Reveal>
-          <p className="font-mono text-sm uppercase tracking-[0.4em] text-soft">Got an idea? A role? A net session?</p>
+          <p className="font-mono text-sm uppercase tracking-[0.4em] text-soft">Open to internships and collaborations</p>
         </Reveal>
         <Reveal delay={0.1}>
           <h2 className="mt-6 font-display text-6xl font-black uppercase leading-[0.9] tracking-tighter text-mist md:text-9xl">
@@ -57,8 +57,8 @@ export default function Contact() {
 
       <footer className="relative mx-auto mt-28 max-w-6xl border-t border-line pt-8">
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-soft md:flex-row">
-          <p>© {new Date().getFullYear()} Muhammad Alyan. Built with caffeine in Tempe, AZ.</p>
-          <p className="font-mono text-xs uppercase tracking-widest">Lahore → Tempe → Everywhere</p>
+          <p>© {new Date().getFullYear()} Muhammad Alyan. All rights reserved.</p>
+          <p className="font-mono text-xs uppercase tracking-widest">Tempe, Arizona</p>
         </div>
       </footer>
     </section>

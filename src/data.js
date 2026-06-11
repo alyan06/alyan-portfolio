@@ -1,7 +1,7 @@
 export const profile = {
   name: "Muhammad Alyan",
   tagline: "Builder. Creator. Engineer.",
-  roles: ["CS + AI @ ASU", "Content Creator", "Event Director", "Entrepreneur", "4.0 GPA Student"],
+  roles: ["Computer Science @ ASU", "Software Developer", "Content Creator", "Event Director"],
   location: "Lahore, PK → Tempe, AZ",
   email: "muhammadalyan06@gmail.com",
   instagram: "https://instagram.com/AlyanKiReelLife",
@@ -181,33 +181,27 @@ export const leadership = [
 export const hobbies = [
   {
     name: "Traveling",
-    desc: "Lahore to Tempe and everywhere between — collecting places, not things.",
+    desc: "Exploring new places and cultures, from Lahore to the American Southwest.",
     icon: "plane",
   },
   {
     name: "Gym",
-    desc: "Structured training and nutrition. Discipline is the whole personality.",
+    desc: "Strength training with a structured approach to fitness and nutrition.",
     icon: "dumbbell",
   },
   {
     name: "Cricket",
-    desc: "Pakistani by birth, cricket fanatic by blood. Always down for a net session.",
+    desc: "Lifelong cricket player and follower of the game.",
     icon: "trophy",
   },
   {
     name: "Photography",
-    desc: "Framing the world one shot at a time — the camera roll is the real diary.",
+    desc: "Capturing landscapes, cityscapes and everyday moments.",
     icon: "camera",
   },
   {
     name: "Content Creation",
-    desc: "0 → 19K followers and 5M monthly views documenting the international student life.",
+    desc: "Producing short-form video documenting the international student experience.",
     icon: "clapperboard",
   },
-]
-
-export const marqueeItems = [
-  "CS + AI @ ASU", "4.0 GPA", "19K+ Followers", "5M Monthly Views", "Event Director",
-  "Franchise Owner", "Math Olympiad Coach", "Dean's List ×2", "Lahore → Tempe",
-  "100% Merit Scholar", "Fulton Ambassador", "Content Creator",
 ]

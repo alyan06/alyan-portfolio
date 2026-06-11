@@ -1,30 +1,30 @@
-import { GraduationCap, MapPin, Languages, Flame, Award, TrendingUp } from "lucide-react"
+import { GraduationCap, MapPin, Languages, User, Award, TrendingUp } from "lucide-react"
 import { SectionHeading, SpotlightCard, Reveal, ImagePlaceholder } from "./ui"
 import { profile } from "../data"
 
 export default function About() {
   return (
     <section id="about" className="relative mx-auto max-w-6xl scroll-mt-28 px-6 py-28 md:px-10">
-      <SectionHeading index="01" title="The Operator" />
+      <SectionHeading index="01" title="About" />
 
       <div className="grid gap-4 md:grid-cols-6">
         {/* Big intro card */}
         <Reveal className="md:col-span-4">
           <SpotlightCard className="h-full p-8 md:p-10">
-            <Flame className="mb-5 h-8 w-8 text-flare" aria-hidden="true" />
+            <User className="mb-5 h-8 w-8 text-volt" aria-hidden="true" />
             <h3 className="font-display text-2xl font-bold text-mist md:text-3xl">
-              One person. Five full-time personalities.
+              Engineering student. Builder at heart.
             </h3>
             <p className="mt-4 leading-relaxed text-soft">
-              I'm a Computer Science (AI) student at Arizona State University with a Data Science minor,
-              a perfect 4.0, and a habit of saying yes to too many things — then delivering all of them.
-              Before ASU, I directed national-scale events in Pakistan, coached Olympiad teams,
-              ran a clothing franchise I own, and built an audience of 19,000+ documenting the
-              international student life. Discipline is the engine; curiosity is the steering wheel.
+              I'm a Computer Science (AI) student at Arizona State University with a Data Science
+              minor and a 4.0 GPA. Before ASU, I directed national-scale events in Pakistan, led
+              academic societies, helped run a family retail business, and built an audience of
+              19,000+ documenting the international student experience.
             </p>
             <p className="mt-4 leading-relaxed text-soft">
-              Long game: a serious CS career, and one day Pakistan's CSS exam — because
-              writing code and writing policy don't have to be different lives.
+              Today I'm focused on software development and data science, while serving in
+              leadership roles across the Fulton Schools of Engineering and ASU's international
+              student community.
             </p>
           </SpotlightCard>
         </Reveal>
@@ -57,7 +57,7 @@ export default function About() {
           <SpotlightCard glow="255, 77, 0" className="h-full p-7">
             <TrendingUp className="mb-4 h-7 w-7 text-flare" aria-hidden="true" />
             <p className="font-display text-5xl font-black text-mist">+15%</p>
-            <p className="mt-2 text-sm text-soft">Monthly sales growth at the Nishat franchise I own and operated in Lahore.</p>
+            <p className="mt-2 text-sm text-soft">Monthly sales growth achieved at the Nishat clothing franchise in Lahore.</p>
           </SpotlightCard>
         </Reveal>
 
@@ -67,7 +67,7 @@ export default function About() {
             <MapPin className="h-8 w-8 shrink-0 text-volt" aria-hidden="true" />
             <div>
               <p className="font-display text-xl font-bold text-mist">{profile.location}</p>
-              <p className="mt-1 text-sm text-soft">Tooker House, Tempe — repping Lahore in the desert.</p>
+              <p className="mt-1 text-sm text-soft">Based in Tempe, Arizona — originally from Lahore, Pakistan.</p>
             </div>
           </SpotlightCard>
         </Reveal>
@@ -78,7 +78,7 @@ export default function About() {
             <Languages className="h-8 w-8 shrink-0 text-cyanic" aria-hidden="true" />
             <div>
               <p className="font-display text-xl font-bold text-mist">{profile.languages.join(" · ")}</p>
-              <p className="mt-1 text-sm text-soft">Four languages, one accent that confuses everyone.</p>
+              <p className="mt-1 text-sm text-soft">Fluent across four languages.</p>
             </div>
           </SpotlightCard>
         </Reveal>

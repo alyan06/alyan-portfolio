@@ -11,7 +11,7 @@ export default function Hobbies() {
 
   return (
     <section id="hobbies" className="relative mx-auto max-w-6xl scroll-mt-28 px-6 py-28 md:px-10">
-      <SectionHeading index="07" title="Off The Clock" accent="text-cyanic" />
+      <SectionHeading index="07" title="Interests" accent="text-cyanic" />
 
       <div className="grid gap-10 lg:grid-cols-2">
         {/* Accordion list */}

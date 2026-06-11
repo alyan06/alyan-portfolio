@@ -91,8 +91,8 @@ export default function Hero() {
           transition={{ delay: 1.1, duration: 0.6 }}
           className="mt-8 max-w-2xl text-lg leading-relaxed text-soft md:text-xl"
         >
-          Freshman who refuses to act like one. <RoleRotator /> — building apps,
-          growing audiences, and running events from Lahore to Arizona.
+          <RoleRotator /> — building software, growing audiences,
+          and leading teams from Lahore to Arizona.
         </motion.p>
 
         <motion.div
@@ -102,7 +102,7 @@ export default function Hero() {
           className="mt-10 flex flex-wrap items-center gap-4"
         >
           <MagneticButton href="#projects" className="bg-volt px-8 py-4 text-sm text-black hover:bg-lime-300">
-            See The Work <ArrowDown className="h-4 w-4" />
+            View Projects <ArrowDown className="h-4 w-4" />
           </MagneticButton>
           <MagneticButton href={profile.instagram} target="_blank" rel="noopener noreferrer" className="border border-line px-8 py-4 text-sm text-mist hover:border-zinc-500 hover:bg-panel">
             <InstagramIcon className="h-4 w-4" /> @AlyanKiReelLife

@@ -19,10 +19,9 @@ export default function Creator() {
           <div>
             <Reveal>
               <p className="text-lg leading-relaxed text-soft">
-                What started on <span className="font-semibold text-mist">21 August 2024</span> as a way to
-                document life as a Pakistani student in America became a media operation of one:
-                shot, edited, captioned and published entirely solo — using nothing but
-                Instagram's built-in editor.
+                Launched in <span className="font-semibold text-mist">August 2024</span> to document
+                life as a Pakistani student in America, the page has grown into an independent
+                content brand — produced, edited and published entirely solo.
               </p>
             </Reveal>
 
@@ -53,7 +52,7 @@ export default function Creator() {
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-pulse to-flare px-8 py-4 text-sm text-white hover:opacity-90"
               >
-                <InstagramIcon className="h-4 w-4" /> Follow the chaos
+                <InstagramIcon className="h-4 w-4" /> View on Instagram
               </MagneticButton>
             </Reveal>
           </div>

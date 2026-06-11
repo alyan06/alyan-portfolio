@@ -5,7 +5,7 @@ import { leadership } from "../data"
 export default function Leadership() {
   return (
     <section id="leadership" className="relative mx-auto max-w-6xl scroll-mt-28 px-6 py-28 md:px-10">
-      <SectionHeading index="06" title="Led, Directed, Organized" accent="text-flare" />
+      <SectionHeading index="06" title="Leadership" accent="text-flare" />
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {leadership.map((l, i) => (

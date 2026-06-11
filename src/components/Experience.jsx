@@ -6,7 +6,7 @@ import { experience } from "../data"
 export default function Experience() {
   return (
     <section id="experience" className="relative mx-auto max-w-6xl scroll-mt-28 px-6 py-28 md:px-10">
-      <SectionHeading index="03" title="Where I've Worked" accent="text-flare" />
+      <SectionHeading index="03" title="Experience" accent="text-flare" />
 
       <div className="relative ml-3 border-l border-line pl-8 md:ml-6 md:pl-12">
         {experience.map((e, i) => (

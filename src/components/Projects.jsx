@@ -19,7 +19,7 @@ const accents = {
 export default function Projects() {
   return (
     <section id="projects" className="relative mx-auto max-w-6xl scroll-mt-28 px-6 py-28 md:px-10">
-      <SectionHeading index="02" title="Things I've Built" accent="text-cyanic" />
+      <SectionHeading index="02" title="Selected Projects" accent="text-cyanic" />
 
       <div className="grid gap-4 md:grid-cols-2">
         {projects.map((p, i) => (
