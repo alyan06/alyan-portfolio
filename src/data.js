@@ -128,7 +128,13 @@ export const education = [
     sub: "Ira A. Fulton Schools of Engineering — Tempe, AZ",
     degree: "B.S. Computer Science (AI) · Minor in Data Science",
     period: "2025 — 2029",
-    highlights: ["4.00 Cumulative GPA", "Dean's List — Fall 2025 & Spring 2026", "CSE 205, MAT 266, MCO 120"],
+    highlights: ["4.00 Cumulative GPA", "Dean's List — Fall 2025 & Spring 2026"],
+    clubs: [
+      "Pakistani Student Association",
+      "Coalition of International Students",
+      "Muslim Student Association",
+      "Connecting International Communities",
+    ],
   },
   {
     school: "Lahore Grammar School Paragon",

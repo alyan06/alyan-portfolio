@@ -19,7 +19,7 @@ export default function Creator() {
           <div>
             <Reveal>
               <p className="text-lg leading-relaxed text-soft">
-                Launched in <span className="font-semibold text-mist">August 2024</span> to document
+                Launched in <span className="font-semibold text-mist">August 2025</span> to document
                 life as a Pakistani student in America, the page has grown into an independent
                 content brand — produced, edited and published entirely solo.
               </p>

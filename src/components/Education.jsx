@@ -26,6 +26,20 @@ export default function Education() {
                   </li>
                 ))}
               </ul>
+              {ed.clubs && (
+                <div className="mt-7 border-t border-line pt-6">
+                  <p className="mb-3 font-mono text-xs uppercase tracking-[0.25em] text-soft">
+                    Campus Involvement
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {ed.clubs.map((c) => (
+                      <span key={c} className="rounded-full border border-line bg-void px-3 py-1.5 text-xs font-medium text-mist">
+                        {c}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </SpotlightCard>
           </Reveal>
         ))}
