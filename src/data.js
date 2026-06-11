@@ -66,6 +66,7 @@ export const projects = [
     accent: "cyanic",
     link: "#",
     size: "md",
+    image: "/images/fse100-vehicle.jpeg",
   },
 ]
 
@@ -198,25 +199,30 @@ export const hobbies = [
     name: "Traveling",
     desc: "Exploring new places and cultures, from Lahore to the American Southwest.",
     icon: "plane",
+    image: "/images/traveling.jpeg",
   },
   {
     name: "Gym",
     desc: "Strength training with a structured approach to fitness and nutrition.",
     icon: "dumbbell",
+    image: "/images/gym.jpeg",
   },
   {
     name: "Cricket",
     desc: "Lifelong cricket player and follower of the game.",
     icon: "trophy",
+    image: "/images/cricket.jpeg",
   },
   {
     name: "Photography",
     desc: "Capturing landscapes, cityscapes and everyday moments.",
     icon: "camera",
+    image: "/images/photography.jpeg",
   },
   {
     name: "Content Creation",
     desc: "Producing short-form video documenting the international student experience.",
     icon: "clapperboard",
+    image: "/images/content-creation.jpeg",
   },
 ]

@@ -31,6 +31,14 @@ export default function Projects() {
                 rel={p.link.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="block h-full cursor-pointer p-8"
               >
+                {p.image && (
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    loading="lazy"
+                    className="mb-6 aspect-video w-full rounded-xl border border-line object-cover"
+                  />
+                )}
                 <div className="flex items-start justify-between gap-4">
                   <h3 className="font-display text-2xl font-extrabold uppercase tracking-tight text-mist">
                     {p.title}

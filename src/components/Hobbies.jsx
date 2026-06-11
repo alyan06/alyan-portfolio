@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Plane, Dumbbell, Trophy, Camera, Clapperboard } from "lucide-react"
-import { SectionHeading, Reveal, ImagePlaceholder } from "./ui"
+import { SectionHeading, Reveal } from "./ui"
 import { hobbies } from "../data"
 
 const icons = { plane: Plane, dumbbell: Dumbbell, trophy: Trophy, camera: Camera, clapperboard: Clapperboard }
@@ -64,7 +64,12 @@ export default function Hobbies() {
               transition={{ duration: 0.3 }}
               className="sticky top-28 h-[480px]"
             >
-              <ImagePlaceholder label={`Photo — ${hobbies[active].name}`} className="h-full rounded-3xl" />
+              <img
+                src={hobbies[active].image}
+                alt={hobbies[active].name}
+                loading="lazy"
+                className="h-full w-full rounded-3xl border border-line object-cover"
+              />
             </motion.div>
           </AnimatePresence>
         </Reveal>

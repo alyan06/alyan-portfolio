@@ -1,5 +1,5 @@
 import { GraduationCap, MapPin, Languages, User, Award, TrendingUp } from "lucide-react"
-import { SectionHeading, SpotlightCard, Reveal, ImagePlaceholder } from "./ui"
+import { SectionHeading, SpotlightCard, Reveal } from "./ui"
 import { profile } from "../data"
 
 export default function About() {
@@ -29,9 +29,14 @@ export default function About() {
           </SpotlightCard>
         </Reveal>
 
-        {/* Portrait placeholder */}
+        {/* Portrait */}
         <Reveal delay={0.1} className="md:col-span-2">
-          <ImagePlaceholder label="Portrait — Alyan" className="h-full min-h-64 rounded-2xl" />
+          <img
+            src="/images/portrait.jpeg"
+            alt="Muhammad Alyan"
+            loading="lazy"
+            className="h-full min-h-64 w-full rounded-2xl border border-line object-cover"
+          />
         </Reveal>
 
         {/* GPA card */}
