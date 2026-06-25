@@ -20,22 +20,6 @@ export const stats = [
 
 export const projects = [
   {
-    title: "FitFamily",
-    desc: "Family health app integrating the Gemini API — shared fitness tracking for the whole household. Deployed publicly on GitHub.",
-    stack: ["React", "Vite", "Gemini API"],
-    accent: "volt",
-    link: "https://github.com/alyan06/fit-family",
-    size: "lg",
-  },
-  {
-    title: "Your Life RPG",
-    desc: "Gamified life-tracking app with a custom SVG block-art avatar system. Level up your real life like a video game.",
-    stack: ["React", "Supabase", "Vercel", "SVG"],
-    accent: "pulse",
-    link: "#",
-    size: "lg",
-  },
-  {
     title: "Vaulted",
     desc: "A personal life archive — log and revisit the movies, places and milestones that make up your story, all in one place.",
     stack: ["React", "Vite", "Tailwind", "Zustand", "Supabase"],
@@ -44,9 +28,9 @@ export const projects = [
     size: "md",
   },
   {
-    title: "Fresho Fast Food",
-    desc: "Concept restaurant website for a Lahore-based brand with bold black/orange identity and WhatsApp-based ordering.",
-    stack: ["Web Design", "Branding", "WhatsApp API"],
+    title: "Local Business Websites",
+    desc: "I build websites for local businesses to give them an online presence and help them scale — from bold branding to online ordering and dashboards to manage it all.",
+    stack: ["Web Design", "Branding", "Supabase"],
     accent: "flare",
     link: "#",
     size: "md",
