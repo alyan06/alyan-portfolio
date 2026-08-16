@@ -28,11 +28,11 @@ export const projects = [
     size: "md",
   },
   {
-    title: "Local Business Websites",
-    desc: "I build websites for local businesses to give them an online presence and help them scale — from bold branding to online ordering and dashboards to manage it all.",
-    stack: ["Web Design", "Branding", "Supabase"],
+    title: "Mauqa",
+    desc: "Every real extracurricular in your city on one free noticeboard — because most Pakistani schools have no counsellor telling students what's out there.",
+    stack: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
     accent: "flare",
-    link: "#",
+    link: "https://mauqa.app",
     size: "md",
   },
   {
