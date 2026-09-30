@@ -20,6 +20,14 @@ export const stats = [
 
 export const projects = [
   {
+    title: "Rasta",
+    desc: "See where you can actually get in — a free planner that reads Matric and A Levels, covers Pakistani and US universities, and shows its working.",
+    stack: ["React", "TypeScript", "Vite", "Supabase", "Claude API"],
+    accent: "pulse",
+    link: "https://www.rastapk.com",
+    size: "md",
+  },
+  {
     title: "Vaulted",
     desc: "A personal life archive — log and revisit the movies, places and milestones that make up your story, all in one place.",
     stack: ["React", "Vite", "Tailwind", "Zustand", "Supabase"],
